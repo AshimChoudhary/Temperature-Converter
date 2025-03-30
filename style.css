@@ -1,0 +1,46 @@
+body{
+    font-family: 'Montserrat';font-size: 20px;
+    background-color: rgb(250, 253, 254);
+    display: block;
+    text-align: center;
+}
+
+form{
+    background-color: rgb(229, 251, 251);
+    margin: auto;
+    max-width: 500px;
+    box-shadow: 5px 5px 15px black;
+    border-radius: 10px;
+    transition: background-color 0.25s;
+    cursor: pointer;
+    padding: 20px;
+    font-size: 1em;
+}
+
+form:hover{
+    background-color: rgb(213, 247, 169)
+}
+
+#cConvert{
+    margin-top: 20px;
+}
+
+#fConvert{
+    margin-top : 20px;
+
+}
+
+#submitBtn{
+    margin-top: 20px;
+    border: none;
+    border-radius: 10px;
+    font-size: 1.3em;
+    background-color: yellowgreen;
+    cursor: pointer;
+
+
+}
+
+p{
+    cursor: none;
+}
